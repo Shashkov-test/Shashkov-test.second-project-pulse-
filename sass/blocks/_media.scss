@@ -1,0 +1,392 @@
+@media (max-width: 1200px) {
+    .entry {
+        &__wrapper {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+    .consultation {
+        .container {
+            padding-left: 20px;
+        }
+    }
+    .firstslider {
+        .slick-dots {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            margin-top: 10px;
+            li::marker {
+                font-size: 0;
+            }
+            button {
+                font-size: 0;
+                padding: 0;
+                border-radius: 50%;
+                border: none;
+                width: 70px;
+                height: 70px;
+                background-color: $main-color;
+            }
+            .slick-active {
+                background-color: $main-color;
+            }
+        }
+    }
+}
+
+@media (max-width: 991px) {
+    .header {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .advantage {
+        &__icons {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+        &__descr {
+            width: 230px;
+        }
+    }
+    .consultation {
+        .consultation__header {
+            font-size: 30px;
+            text-align: center;
+        }
+        .consultation__descr {
+            text-align: center;
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding-left: 0;
+        }
+    }
+    .firstslider {
+        .slick-dots {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            margin-top: 10px;
+            li::marker {
+                font-size: 0;
+            }
+            button {
+                font-size: 0;
+                padding: 0;
+                border-radius: 50%;
+                border: none;
+                width: 70px;
+                height: 70px;
+                background-color: $main-color;
+            }
+            .slick-active {
+                background-color: $main-color;
+            }
+        }
+    }
+    .reviews {
+        &__descr {
+            width: 520px;
+        }
+        &__new_3 {
+            width: 520px;
+        }
+        hr {
+            width: none;
+        }
+        &__content {
+            padding-left: 10px;
+        }
+    }
+    .catalog {
+        &__content {
+            display: none;
+            justify-content: space-around;
+            &_active {
+                display: flex;
+            }
+        }
+    }
+    .maps {
+        &__more {
+            width: 400px;
+            height: 250px;
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    .entry {
+        .header {
+            &__official {
+                display: none;
+            }
+        }
+        &__header {
+            font-size: 37px;
+        }
+        &__subheader {
+            font-size: 20px;
+        }
+    }
+    .advantage {
+        &__icons {
+            display: flex;
+            justify-content: none;
+            flex-direction: column;
+            img {
+                margin-bottom: 8px;
+            }
+        }
+        &__descr {
+            width: 270px;
+            margin-bottom: 50px;
+            font-size: 17px;
+        }
+    }
+    .firstslider {
+        .firstslider__myslider img {
+            width: 550px;
+        }
+    }
+    .reviews {
+        &__content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .reviews__img_767 {
+            margin-right: 0;
+        }
+        &__name {
+            margin-top: 20px;
+            text-align: center;
+        }
+        &__subheader {
+            text-align: center;
+        }
+        &__descr {
+            width: 520px;
+            text-align: center;
+        }
+        &__new {
+            text-align: center;
+            &_3 {
+                width: 520px;
+            }
+        }
+        &__thx {
+            text-align: center;
+        }
+        hr {
+            width: none;
+        }
+        &__content {
+            padding-left: 10px;
+        }
+    }
+    .catalog {
+        &__tabs {
+            margin-top: 40px;
+        }
+        &__tab {
+            width: 165px;
+        }
+    }
+}
+
+@media (max-width: 575px) {
+    .entry {
+        padding-bottom: 0;
+        .header {
+            &__logo {
+                width: 200px;
+            }
+            &__phone {
+                font-size: 11px;
+            }
+            .button {
+                font-size: 9px;
+                width: 100px;
+                height: 24px;
+            }
+        }
+        &__header {
+            font-size: 24px;
+            text-align: center;
+        }
+        &__subheader {
+            font-size: 16px;
+            text-align: center;
+        }
+        &__icons {
+            width: 100%;
+            font-size: 10px;
+            img {
+                width: 35px;
+                height: 35px;
+            }
+        }
+        &__descr {
+            font-size: 14px;
+        }
+        .button{
+            &_main {
+                width: 265px;
+                height: 45px;
+                font-size: 14px;
+            }
+        }
+    }
+    .advantage {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .consultation {
+        padding-top: 80px;
+        padding-bottom: 0;
+        .consultation__header {
+            font-size: 20px;
+            text-align: center;
+        }
+        .consultation__descr {
+            text-align: center;
+            font-size: 18px;
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 0 10px;
+        }
+        .forma {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            input {
+                width: 250px;
+                height: 40px;
+            }
+            button {
+                width: 250px;
+                height: 55px;
+            }
+        }
+    }
+    .firstslider {
+        padding: 50px 0 50px 0;
+        .slick-dots {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            margin-top: 0;
+            padding-left: 0;
+            margin-top: 15px;
+            button {
+                width: 50px;
+                height: 50px;
+            }
+        }
+        .firstslider__myslider img {
+            width: 250px;
+        }
+        .firstslider_img {
+            margin-top: 5px;
+        }
+    }
+    .reviews {
+        &__header {
+            font-size: 25px;
+        }
+        &__descr {
+            font-size: 15px;
+            width: 300px;
+            text-align: center;
+        }
+        &__new {
+            text-align: center;
+            &_3 {
+                font-size: 15px;
+                width: 300px;
+            }
+        }
+    }
+    .catalog {
+        &__tabs {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            transform: none;
+            margin-top: 40px;
+            div {
+                transform: none;
+            }
+        }
+        &__tab {
+            width: 165px;
+            margin-bottom: 10px;
+        }
+        &__content {
+            margin-top: 25px;
+        }
+    }
+    .maps {
+        min-height: 500px;
+        iframe {
+            height: 500px;
+        }
+        &__more {
+            position: absolute;
+            top: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 275px;
+            height: 205px;
+        }
+        &__addrr {
+            margin-top: 25px;
+            font-size: 15px;
+        }
+        &__tel {
+            margin-top: 30px;
+            font-size: 17px;
+        }
+        &__social {
+            margin-top: 30px;
+            &-item {
+                width: 45px;
+                height: 45px;
+            }
+        }
+    }
+    .modal {
+        .hidden {
+            position: absolute;
+            width: 200px;
+            min-height: 420px;
+            padding: 20px;
+            &__header {
+                font-size: 17px;
+            }
+            input {
+                width: 160px;
+            }
+            button {
+                width: 160px;
+            }
+            label.error {
+                text-align: center;
+                font-size: 13px;
+                width: 158px;
+            }
+        }
+    }
+}
