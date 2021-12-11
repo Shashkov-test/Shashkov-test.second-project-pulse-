@@ -164,9 +164,9 @@
                         left: -15px;
                         background-color: $main-color;
                     }
-                }
-                li::marker {
-                    font-size: 0;
+                    &::marker {
+                        font-size: 0;
+                    }
                 }
                 &__back {
                     position: absolute;
