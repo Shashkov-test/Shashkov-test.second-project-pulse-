@@ -4,8 +4,8 @@ $(document).ready(function(){
     autoplay: false,
     dots: false,
     arrows: true,
-    prevArrow: '<button type="button" class="slick-prev"><img src="..//img/left.jpg"></button>',
-    nextArrow: '<button type="button" class="slick-next"><img src="..//img/right.jpg"></button>',
+    prevArrow: '<button type="button" class="slick-prev"><img src="img/left.jpg"></button>',
+    nextArrow: '<button type="button" class="slick-next"><img src="img/right.jpg"></button>',
     responsive: [
       {
         breakpoint: 1150,
